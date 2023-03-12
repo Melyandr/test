@@ -1,6 +1,5 @@
 package ua.lviv.iot.algo.part1.lab1;
 import lombok.*;
-
 @AllArgsConstructor
 @ToString
 @NoArgsConstructor
@@ -36,13 +35,11 @@ public int removePencil()
     }
     return 0;
 }
-
     public int removePen()
     {
         if (numPens > 0)
         {
             return numPens - 1;
-
         }
         else
         {
